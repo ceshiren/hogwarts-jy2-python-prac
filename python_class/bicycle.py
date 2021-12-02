@@ -18,9 +18,9 @@ class Bicycle:
 
     def open(self):
         if self.__key == True:
-            print('开锁')
+            print('open')
         else:
-            print('没钥匙')
+            print('no key')
 
 
 # 继承：父类名放到子类名后的括号中
